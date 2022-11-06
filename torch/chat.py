@@ -28,12 +28,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "bot"
-print("Let's chat! (type 'quit' to exit)")
+print("chat about movies/tv shows")
 while True:
     # sentence = "do you use credit cards?"
     sentence = input("You: ")
-    if sentence == "quit":
-        break
     origs = sentence
     sentence = tokenize(sentence)
     sentence = [word.lower() for word in sentence if word.isalpha()]
