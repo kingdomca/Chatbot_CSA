@@ -34,7 +34,7 @@ while True:
     sentence = input("You: ")
     if sentence == "quit":
         break
-
+    origs = sentence
     sentence = tokenize(sentence)
     sentence = [word.lower() for word in sentence if word.isalpha()]
     input_tensor = bagofwords(sentence, all_words)
@@ -57,4 +57,4 @@ while True:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        print(f"{bot_name}: ok")
+        print(f"{bot_name}: uh, what do you mean by '{origs}'?")

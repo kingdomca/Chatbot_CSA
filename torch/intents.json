@@ -3,7 +3,7 @@
       {
         "tag": "greeting",
         "patterns": [
-          "Hi",
+          "Hi. chat about movies and tv shows",
           "Hey",
           "How are you",
           "Is anyone there?",
@@ -12,11 +12,11 @@
           "Nice to see you fellow anime fan"
         ],
         "responses": [
-          "Hey",
-          "Hi",
-          "Need any recommendations?",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hey, let's chat about movies and tv shows",
+          "Hi, ask me about a movie or tv show",
+          "Need any of my recommendations?",
+          "Hi there, what can I do for you about movies?",
+          "Hi there, how can I help for movies?"
         ]
       },
       {
