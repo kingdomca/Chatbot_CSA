@@ -1,0 +1,89 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "What's up",
+          "Nice to see you fellow anime fan"
+        ],
+        "responses": [
+          "Hey",
+          "Hi",
+          "Need any recommendations?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Thank you."],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Bye!",
+          "Come back for more recommendations"
+        ]
+      },
+      {
+        "tag": "recommendations",
+        "patterns": [
+          "Can you recommend some good anime?",
+          "What good anime are there?",
+          "Have you watched any good shows?",
+          "What do you think of this show?"
+        ],
+        "responses": [
+          "I've seen an Eminence in the Shadows",
+          "There are a variety of good shows, don't know which to recommend"
+        ]
+      },
+      {
+        "tag": "positive",
+        "patterns": [
+          "This show is pretty good",
+          "I recommend watching an Immortal's journey",
+          "Do you like this show as well?",
+          "This is my favorite anime",
+          "Best anime this season just need to caught up",
+          "I need to check this out it looks cute",
+          "Glad to see more from this story",
+          "it's really really good"
+
+
+
+        ],
+        "responses": [
+          "Seems interesting",
+          "Cool",
+          "Yeah, totally agreed!"
+          
+        ]
+      },
+      {
+        "tag": "mock",
+        "patterns": [
+          "this series sucks",
+          "do you know how bad this is?",
+          "never seen a worse show",
+          "Well.. there is a isekai system one where mc is the heir of a famous place of a middle world but it just starts with him in the lower realm because he had a task there before going back to the middle realm",
+          "It looks really bad. It's like it's written by a kid",
+          "It's really sad that most gems don't get adaption from their novel counterparts. But these spring like rabbits every other day",
+          "I had to drop this one, the translation is really bad.",
+          "My guy is about to be ripped to shreds"
+        ],
+        "responses": [
+          "yeah that sucks",
+          "agreed",
+          "maybe so",
+          "I was really disappointed by the ending to what was otherwise an incredible story. There's nothing wrong with the way they chose to end it, but it was a very rote and predictable path for the story to follow. Finishing it had left me wishing the author was a little more risky with their writing at the very end.",
+          "agreed. I feel like it could've been longer , even though i dont have anything against the ending and feel that it was pretty decent"
+        ]
+      }
+      
+    ]
+  }
